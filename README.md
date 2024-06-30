@@ -1,5 +1,11 @@
 # Explore & Classify: K-means Clustering and SVM Models
 
+## Authors
+
+* **AitKebroune Youness**  - [Github](https://github.com/Youness-kebroune)
+* **El Basit Mouad**  - [Github](https://github.com/mouadelbasit)
+* **Abdennacer Abhouss**  - [Github]()
+* **Abia Maryam** - [Github](https://github.com/maryamabia2024)
 
 ## Description
 
@@ -78,10 +84,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Streamlit](https://www.streamlit.io/)
 - [Scikit-learn](https://scikit-learn.org/)
 - [Pandas](https://pandas.pydata.org/)
-
-## Authors
-
-* **AitKebroune Youness**  - [Github](https://github.com/Youness-kebroune)
-* **El Basit Mouad**  - [Github](https://github.com/mouadelbasit)
-* **Abdennacer Abhouss**  - [Github]()
-* **Abia Maryam** - [Github](https://github.com/maryamabia2024)
