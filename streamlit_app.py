@@ -96,11 +96,8 @@ if uploaded_file is not None:
 
     if model_option == "K-means":
         st.write("### K-means Clustering")
-        html = """
-<div style="background-color: #f0f0f0; padding: 20px; border-radius: 150px; border: 1px solid #ccc;">
-    K-means clustering groups data into \(k\) clusters by assigning points to the nearest centroid, recalculating centroids as the mean of points in each cluster, and repeating until centroids stabilize.
-</div>
-"""
+        st.write("K-means clustering groups data into k clusters by assigning points to the nearest centroid, recalculating centroids as the mean of points in each cluster, and repeating until centroids stabilize.")
+
         # Select columns to use
         selected_columns = st.multiselect("Select Features Columns", data.columns)
 
@@ -159,7 +156,7 @@ if uploaded_file is not None:
 
     elif model_option == "SVM":
         st.write("### Support Vector Machine (SVM) Classification")
-        st.write("### Support Vector Machines (SVM) classify data by finding the hyperplane that best separates different classes, maximizing the margin between them.")
+        st.write("Support Vector Machines (SVM) classify data by finding the hyperplane that best separates different classes, maximizing the margin between them.")
 
         # Selection of columns to use
         selected_columns = st.multiselect("Select Features Columns", data.columns)
