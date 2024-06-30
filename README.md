@@ -25,6 +25,9 @@ Explore & Classify is a web application designed to perform K-means clustering a
 - Streamlit
 - Scikit-learn
 - Pandas
+- Matplotlib
+- Numpy
+- Seaborn 
 
 ### Installation
 
@@ -53,7 +56,7 @@ Explore & Classify is a web application designed to perform K-means clustering a
 1. Run the Streamlit app:
 
     ```bash
-    streamlit run app.py
+    streamlit run Streamlit_app.py
     ```
 
 2. Open your browser and go to `http://localhost:8501` to view the app.
@@ -75,9 +78,6 @@ Explore & Classify is a web application designed to perform K-means clustering a
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
